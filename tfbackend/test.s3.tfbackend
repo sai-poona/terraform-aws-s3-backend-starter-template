@@ -1,0 +1,4 @@
+bucket         = "[REPLACE WITH YOUR S3 BUCKET]"
+key            = "[REPLACE WITH YOUR S3 PREFIX]/terraform.tfstate"
+region         = "[REPLACE WITH YOUR AWS REGION]"
+dynamodb_table = "[REPLACE WITH YOUR DYNAMODB TABLE]"
