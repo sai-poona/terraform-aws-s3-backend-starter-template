@@ -18,7 +18,7 @@ The backend details for the different environments will be stored in the `tfback
 
 ## Contents
 
-In this repository, 3 example backend configuration files have been defined that map to 3 different environments, i.e., dev, test and prod.
+In this repository, 3 example backend configuration files have been defined that map to 3 different environments, i.e., dev, test and prod. These backend configuration files can be found in the `tfbackend` folder.
 
 Feel free to modify the name of the environments as per your requirements.
 
@@ -26,7 +26,7 @@ The `main.tf` file contains the Terraform configuration. The required version of
 
 The `variables.tf` files can be used to define variables for your project. A few sample variables have been pre-populated for your reference. Feel free to modify them and/or add new variables as per your requirements.
 
-The values for the defined variables for each environment should be configured in the `<env>.tfvars` files.
+The values for the defined variables for each environment should be configured in the `<env>.tfvars` files, located in the `tfvars` folder.
 
 The `outputs.tf` file can be used to expose the output values about the infrastructure.
 
